@@ -4,33 +4,25 @@
   # 1.2: Abstraction
     Hiding the implementation details and showing only the essential features helps simplify complex systems and promote modularity.
   # 1.3: Layering
-    Organizing the system into layers, each layer providing a specific set of functionalities promotes the separation of concerns and enhances maintainability.
+    Organizing the system into layers, each layer providing a specific set of functionalities promotes the separation of concerns and       enhances maintainability.
+  # 1.4: Scalability
+    Design systems to handle the increased load by adding more resources (horizontal scaling) or optimizing the system’s capacity (vertical scaling).
+  # 1.5: Performance
+    Optimizing the system’s response time, throughput, and resource utilization is crucial for a successful design.
+  # 1.6: Security
+    Ensure the system’s confidentiality, integrity, and availability by implementing proper security measures and practices.
+  # 1.7: Fault Tolerance and Resilience
+    Design systems to withstand failures and recover gracefully from errors, ensuring reliability and availability.
 
-1.4: Scalability
-Design systems to handle the increased load by adding more resources (horizontal scaling) or optimizing the system’s capacity (vertical scaling).
-
-1.5: Performance
-Optimizing the system’s response time, throughput, and resource utilization is crucial for a successful design.
-
-1.6: Security
-Ensure the system’s confidentiality, integrity, and availability by implementing proper security measures and practices.
-
-1.7: Fault Tolerance and Resilience
-Design systems to withstand failures and recover gracefully from errors, ensuring reliability and availability.
-
-Section 2: Key Components of System Design
-2.1: DNS (Domain Name System)
-DNS is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It translates human-readable domain names (e.g., www.example.com) into IP addresses, allowing users to access websites and services more efficiently. Read More
-
-
-2.2: Load Balancing
-Load balancing refers to distributing network traffic across multiple servers to ensure no single server is overwhelmed. This approach improves the system’s availability, reliability, and performance. Standard load balancing algorithms include Round Robin, Least Connections, and IP Hash. Read More with Cheatsheet
-
-2.3: API Gateway
-An API Gateway is a server that acts as an intermediary between clients and microservices in a distributed system. It manages and routes requests, enforces security policies, and may provide additional features such as caching, logging, and monitoring.
-
-2.4: Content Delivery Network (CDN)
-A CDN is a network of servers distributed across various locations, designed to serve content to users with lower latency and higher bandwidth. CDNs cache content on edge servers close to end-users, improving the system’s performance and reducing the load on origin servers. Read More with Cheatsheet
+## Section 2: Key Components of System Design
+  # 2.1: DNS (Domain Name System)
+    DNS is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It translates human-readable domain names (e.g., www.example.com) into IP addresses, allowing users to access websites and services more efficiently.
+  # 2.2: Load Balancing
+    Load balancing refers to distributing network traffic across multiple servers to ensure no single server is overwhelmed. This approach improves the system’s availability, reliability, and performance. Standard load balancing algorithms include Round Robin, Least Connections, and IP Hash.
+  # 2.3: API Gateway
+    An API Gateway is a server that acts as an intermediary between clients and microservices in a distributed system. It manages and routes requests, enforces security policies, and may provide additional features such as caching, logging, and monitoring.
+  # 2.4: Content Delivery Network (CDN)
+    A CDN is a network of servers distributed across various locations, designed to serve content to users with lower latency and higher bandwidth. CDNs cache content on edge servers close to end-users, improving the system’s performance and reducing the load on origin servers.
 
 2.5: Message Queue
 Message queues facilitate communication between distributed system components by temporarily storing messages in a queue. They enable asynchronous processing and help decouple components, improving the system’s scalability and fault tolerance. Read more
