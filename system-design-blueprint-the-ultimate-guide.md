@@ -1,12 +1,10 @@
-Section 1: Principles of System Design
-1.1: Modularization
-Dividing the system into smaller, manageable modules help reduce complexity, improve maintainability, and increase reusability.
-
-1.2: Abstraction
-Hiding the implementation details and showing only the essential features helps simplify complex systems and promote modularity.
-
-1.3: Layering
-Organizing the system into layers, each layer providing a specific set of functionalities promotes the separation of concerns and enhances maintainability.
+## Section 1: Principles of System Design
+  # 1.1: Modularization
+    Dividing the system into smaller, manageable modules help reduce complexity, improve maintainability, and increase reusability.
+  # 1.2: Abstraction
+    Hiding the implementation details and showing only the essential features helps simplify complex systems and promote modularity.
+  # 1.3: Layering
+    Organizing the system into layers, each layer providing a specific set of functionalities promotes the separation of concerns and enhances maintainability.
 
 1.4: Scalability
 Design systems to handle the increased load by adding more resources (horizontal scaling) or optimizing the system’s capacity (vertical scaling).
