@@ -1,4 +1,4 @@
-## Section 1: Principles of System Design
+** Section 1: Principles of System Design **
   # 1.1: Modularization
     Dividing the system into smaller, manageable modules help reduce complexity, improve maintainability, and increase reusability.
   # 1.2: Abstraction
