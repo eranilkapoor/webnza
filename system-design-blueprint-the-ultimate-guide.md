@@ -1,17 +1,17 @@
 ## Section 1: Principles of System Design ##
-  ** 1.1: Modularization **
+  **1.1: Modularization**
     Dividing the system into smaller, manageable modules help reduce complexity, improve maintainability, and increase reusability.
-  ** 1.2: Abstraction **
+  **1.2: Abstraction**
     Hiding the implementation details and showing only the essential features helps simplify complex systems and promote modularity.
-  ** 1.3: Layering **
+  **1.3: Layering**
     Organizing the system into layers, each layer providing a specific set of functionalities promotes the separation of concerns and       enhances maintainability.
-  ** 1.4: Scalability **
+  **1.4: Scalability**
     Design systems to handle the increased load by adding more resources (horizontal scaling) or optimizing the system’s capacity (vertical scaling).
-  ** 1.5: Performance **
+  **1.5: Performance**
     Optimizing the system’s response time, throughput, and resource utilization is crucial for a successful design.
-  ** 1.6: Security **
+  **1.6: Security**
     Ensure the system’s confidentiality, integrity, and availability by implementing proper security measures and practices.
-  ** 1.7: Fault Tolerance and Resilience **
+  **1.7: Fault Tolerance and Resilience**
     Design systems to withstand failures and recover gracefully from errors, ensuring reliability and availability.
 
 ## Section 2: Key Components of System Design
