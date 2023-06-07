@@ -54,6 +54,7 @@ Remember, this is a high-level overview and your specific needs may require modi
 
 This architecture should provide a solid foundation to build upon. However, it's recommended to consult with a solutions architect or a similar
 
+---
 
 Lambda functions can be used to handle many different aspects of a multiplayer game. For a dice game, you might have Lambda functions for:
 
