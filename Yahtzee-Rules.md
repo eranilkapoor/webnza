@@ -25,4 +25,21 @@ For the six combinations above the score for each of them is the sum of dice of 
 The rules around multiple Yahtzees are a bit complex. There are a couple of different cases:
   1. **You already have a Yahtzee:** You get a 100 bonus points in the Yahtzee box, but you also have a joker, which means that you can choose another move for the Yahtzee you just got. If the number you got yahtzees with has not been filled out in the upper section, then you must choose that. E.g. if you get an additional Yahtzee with 2's, and you haven't filled out the 2's in the upper section then you must choose that, and get 10 points for it. If the upper section box is already filled then you can choose any of the lower region boxes, and they will be scored as normal. Yahtzee is a superset of 3 of a kind, 4 of a kind, full house and chance, but you can also choose small or large straight and will get the normal 30 and 40 points for those.
   2. **You've already put 0 in the Yahtzee box:** In this case you get no 100 point bonus, but you do get a joker, and can choose your move following the rules described above for jokers.
-    
+# Game Statistics #
+  - Games Started, 
+  - Games Finished, 
+  - Games Abandoned, 
+  - Total Time Spent, 
+  - Average Time Per Game, 
+  - Shortest Game, 
+  - Longest Game, 
+  - Total Won Games
+  - Total Lost Games
+  - Total Tied Games
+  - Total Abandoned Games
+  - Average Score
+  - Minimum Score
+  - Maximum Score
+  - Got Bonus
+  - Got Yahtzee
+
